@@ -1,0 +1,206 @@
+	@font-face {
+  			font-family: "16bfZX";
+  			src: url(../Fonts/16bfZX.ttf) format('truetype');
+			}
+
+			body{
+				background-color: #1c1e22;
+				margin:0;
+  				padding:0;
+			}
+
+
+			div.banner {
+				background-color: #fff; 
+				height: 250px; 
+				position: relative;
+				margin:0;
+  				padding:0;
+			}
+
+			div.nobanner {
+				background-color: #fff; 
+				height: 0px; 
+				position: relative;
+				margin:0;
+  				padding:0;
+			}
+
+			img.bannerlogo {
+				height: 250px; 
+				position: absolute;
+				left:50%;
+  				margin-left: -125px;		
+  			}
+
+  			img.backimage {
+				height: 44px; 
+				position: absolute;
+				content:url("../Images/back.png");
+  			}
+
+  			img.backimage:hover {
+				content:url("../Images/back_hover.png");
+  			}
+
+
+  			img.gameimage {
+				position: absolute;
+				left:32px;
+				top:32px;
+  			}
+
+  			img.loadingimage {
+				position: absolute;
+				height: 100%; 
+				width: 100%;
+				
+				image-rendering: pixelated;
+				
+  			}
+
+			div.topbar {
+				background-color: #25aae1; 
+				height: 30px; 
+				width: 100%;
+				position: absolute;
+			    top: 250px;
+			    display: block;
+
+			}
+			div.smalltopbar {
+				background-color: #25aae1; 
+				height: 45px; 
+				width: 100%;
+				position: fixed;
+			    top: 0px;
+			    display: block;
+
+			}
+
+			div.footer {
+				position: fixed;
+				background-color: #25aae1; 
+				height: 30px; 
+				width: 100%;
+			    bottom:0%;
+
+			}
+
+			div.content {
+				background-color: transparent; 
+				position: relative;
+				height: 100px; 
+				width: 100%;
+				top:62px;
+			    
+			}
+
+			div.outercontent {
+				background-color: transparent; 
+				position: relative;
+				height: 923px; 
+				width: 100%;
+				top:62px;
+				overflow: hidden;
+				z-index: -1;
+			    
+			}
+
+			div.contentcontainer {
+				background-color: #2b3037; 
+				height:276px; 
+				width: 100%;
+
+				top:30px;
+			    
+			}
+
+
+			div.gamecontentcontainer {
+				background-color: #2b3037; 
+				height:644px; 
+				width: 644px;
+				top:15px;
+				left:50%;
+  				margin-left: -322px;
+  				position: absolute;
+			    
+			}
+
+			div.gameabout {
+				background-color: #2b3037; 
+				height:164px; 
+				width: 644px;
+
+				top:695px;
+
+				left:50%;
+  				margin-left: -322px;
+  				position: absolute;
+			    
+			}
+
+
+			div.gameplayer {
+				background-color: #000; 
+				height:544px; 
+				width: 544px;
+				top:50px;
+				left:50%;
+  				margin-left: -275px;
+  				position: absolute;
+			    
+			}
+
+			a.footertext {
+				position: absolute;
+				top:2px;
+				left:5px;
+				color:#fff;
+				font-family: "16bfZX";
+				-webkit-font-smoothing : none;
+				font-size:32px;
+			}
+
+			a.tab {
+				color:#fff;
+				font-family: "16bfZX";
+				font-weight: normal;
+				font-size:32px;
+				text-decoration: none;
+				padding: 16px;
+			}
+			a.tab:hover {
+				color:#1e5d76;
+				font-family: "16bfZX";
+				font-weight: normal;
+				font-size:32px;
+				text-decoration: none;
+			}
+			
+			li {
+  				float: left;
+  				position: relative;
+			}
+
+			ul {
+				list-style-type: none;
+				min-width: 100%;
+			}
+
+			div.topbarcontainer {
+  				height:30px;
+  				top:-14px;
+  				left:50%;
+  				margin-left: -293px;
+  				position: absolute;
+			}
+
+			div.smalltopbarcontainer {
+  				height:30px;
+  				top:-8px;
+  				left:50%;
+  				margin-left: -293px;
+  				position: absolute;
+			}
