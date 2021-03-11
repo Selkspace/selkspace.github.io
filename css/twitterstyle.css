@@ -7,6 +7,7 @@
 				background-color: #1c1e22;
 				margin:0;
   				padding:0;
+  				image-rendering: pixelated;
 			}
 
 
@@ -24,6 +25,7 @@
 				position: relative;
 				margin:0;
   				padding:0;
+  				z-index: 1;
 			}
 
 			img.bannerlogo {
@@ -58,6 +60,16 @@
 				image-rendering: pixelated;
 				
   			}
+
+  			img.kittylogo {
+  				top:70px;
+				height: 125px; 
+				position: absolute;
+				left:50%;
+  				margin-left: -205px;	
+  				image-rendering: auto;
+  			}
+
 
 			div.topbar {
 				background-color: #25aae1; 
@@ -103,7 +115,16 @@
 				width: 100%;
 				top:62px;
 				overflow: hidden;
-				z-index: -1;
+
+			}
+
+			div.aboutoutercontent {
+				background-color: transparent; 
+				position: relative;
+				height: 900px; 
+				width: 100%;
+				top:62px;
+				overflow: hidden;
 			    
 			}
 
@@ -116,6 +137,25 @@
 			    
 			}
 
+			div.aboutcontentcontainer {
+				background-color: #2b3037; 
+				height:479px; 
+				width: 100%;
+
+				top:15px;
+				position: absolute;
+			    
+			}
+
+			div.membercontentcontainer {
+				background-color: #2b3037; 
+				height:212px; 
+				width: 100%;
+
+				top:526px;
+				position: absolute;
+			    
+			}
 
 			div.gamecontentcontainer {
 				background-color: #2b3037; 
@@ -153,30 +193,109 @@
 			    
 			}
 
+
+			a, p{
+				color:#fff;
+				font-family: "16bfZX";
+				-webkit-font-smoothing : none;
+				font-size:32px;
+				text-decoration: none;
+			}
+
+			a.kittyname{
+				color: #ac72ce;
+				margin-top: 36px;
+				position: absolute;
+				top:42px;
+				left:220px;
+				text-align: center;
+			}
+
+			a.kittylink{
+				position: absolute;
+				top:42px;
+				margin-top: 106px;
+				text-align: center;
+
+			}
+
+			a.kittylink.kittylink1{
+				color: #25aae1;
+				left:170px;
+			}
+			a.kittylink.kittylink2{
+				color: #ff7a01;
+				left:350px;
+			}
+			a.kittylink.kittylink3{
+				color: #a742d2;
+				left:263px;
+			}
+
+			a.kittylink:hover{
+				color: #fff;
+			}
+
+
+
+
+
+
+
 			a.footertext {
 				position: absolute;
 				top:2px;
 				left:5px;
 				color:#fff;
-				font-family: "16bfZX";
-				-webkit-font-smoothing : none;
-				font-size:32px;
+				
 			}
+
+			img.aboutlogo {
+				margin-top: 32px;
+				margin-left: 180px;
+				width:148px;
+				height:188px;
+				position: absolute;
+			}
+
+			p.abouttext {
+				margin-top: 252px;
+				position: absolute;
+				top:100;
+				text-align: center;
+
+			}
+
+			a.aboutcentertext{
+				top:13px;
+				left:50%;
+  				margin-left: -135px;
+				text-align: center;
+				position: absolute;
+			}
+
+			div.aboutcenterer{
+				width:500px;
+				left:50%;
+  				margin-left: -250px;
+  				position: absolute;
+  			}
+
+  			hr.aboutline{
+  				top:48px;
+				left:50%;
+				margin-left: -200px;
+				width: 400px;
+  				position: absolute;
+  			}
 
 			a.tab {
 				color:#fff;
-				font-family: "16bfZX";
-				font-weight: normal;
-				font-size:32px;
-				text-decoration: none;
 				padding: 16px;
 			}
+
 			a.tab:hover {
 				color:#1e5d76;
-				font-family: "16bfZX";
-				font-weight: normal;
-				font-size:32px;
-				text-decoration: none;
 			}
 			
 			li {
